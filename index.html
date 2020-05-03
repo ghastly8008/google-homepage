@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<style>
+  html *
+{
+   font-family: Arial !important;
+}
+form input {
+    width : 450px;
+    padding: 11px;
+    margin: 15px 0px 20px 0px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 18px;
+    border: 1px solid #ECECEC;
+  }
+button {
+    width : 120px;
+    padding: 8px;
+    margin: 2px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #ECECEC;
+    border-radius: 3px;
+    color:rgb(95, 95, 95);
+  }
+  #sign_button {
+    width : 80px;
+    padding: 8px;
+    margin: 2px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #4c8bf5;
+    border-radius: 3px;
+    color: white;
+  }
+
+ul {
+  display: inline;
+  list-style-type: none;
+  margin: 3px;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+a {
+  color: rgb(71, 70, 70);
+  text-decoration:none;
+}
+#rightnav {
+  float: right;
+}
+#navtext {
+  font-size: 13px;
+  padding: 20px;
+}
+/*
+div {
+  vertical-align: middle;
+  text-align: center;
+}
+*/
+#footer_style {
+  text-align: left;
+  float: left;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ECECEC;
+  color: grey;
+  padding: 10px;
+  font: arial;
+  font-size: 13px;
+}
+a:hover {
+  text-decoration:underline;
+}
+button:hover {
+  color:black;
+  border: 1px solid grey;
+}
+.container {
+  height: 230px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+<nav id="navtext">
+<ul>
+    <li><a href="default.asp">About</a></li>
+    <li><a href="news.asp">Store</a></li>
+</ul>
+<ul id="rightnav">
+    <li><a href="contact.asp">Gmail</a></li>
+    <li><a href="about.asp">Images</a></li>
+    <li><button type="submit" id="sign_button">Sign in</button></li>
+</ul>
+</nav>
+<body>
+<main>
+  <div class="container">
+    <div class="center">
+   <a href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="A cute orange cat lying on its back."></a>
+   <form action="/submit-cat-photo">
+     <input type="text">
+   </form>
+    <form>
+     <button type="submit">Google Search</button>
+     <button type="submit">I'm Feeling Lucky</button>
+    </form>
+    <p><a href="#" style="color:rgb(58, 58, 212);font-size:13px">Stay Home. Save Lives.</a></p>
+  </div>
+</div>
+</main>
+<div class="footer" id="footer_style">
+  <ul>
+    <li><a href="default.asp">Advertising</a></li>
+    <li><a href="news.asp">Business</a></li>
+    <li><a href="news.asp">How Search Works</a></li>
+</ul>
+<ul id="rightnav">
+    <li><a href="contact.asp">Privacy</a></li>
+    <li><a href="contact.asp">Terms</a></li>
+    <li><a href="contact.asp">Settings</a></li>
+</ul>
+</div>
+</body>
+</html>
+
